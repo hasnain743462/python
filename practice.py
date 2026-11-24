@@ -7,8 +7,8 @@
 # else :
 #     print("you are not register in system")
 
-name = input("enter your name")
-age = int(input("enter your age"))
+name = input("enter your name :")
+age = int(input("enter your age :"))
 if age >= 18 :
     print(name, "you are eligible for vote casting")
 else:
